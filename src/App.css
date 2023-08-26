@@ -169,7 +169,7 @@ s{
   h2{
     top: min(-15vh, -120px);
     left: 5vw;
-    width: 50vw;
+    width: max(50vw, 200px);
     
   }
 
