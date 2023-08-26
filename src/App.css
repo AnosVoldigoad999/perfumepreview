@@ -137,7 +137,7 @@ s{
     grid-area: pic;
     width: 75vw;
     height: 30vh;
-    min-height: 250px ;
+    min-height: 240px ;
     border-top-left-radius: var(--container-borders);
     border-top-right-radius: var(--container-borders);
     border-bottom-left-radius: 0px;
