@@ -121,14 +121,14 @@ s{
     display: grid;
     grid-template-areas: "pic"
                          "everything" ;
-    grid-template-rows: 350px 350px;                  
+    grid-template-rows:  min(350px, 50vh) min(350px, 50vh);                  
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
     width: 75vw;
     min-width: 0px;
     max-width: 500px;
-    min-height: 700px;
-    max-height: 700px;
+    min-height: 690px;
+    max-height: 690px;
     margin-top: 5vh;
     border-radius: var(--container-borders);
   }
@@ -149,33 +149,33 @@ s{
   p{
     font-size: clamp(16px, 3vw, 20px);
     position: relative;
-    top: min(-12vh, -90px );
+    top: min(-12vh, -80px );
     left: 5vw;
   }
   
   h1{
     font-size: 6vw;
     position: relative;
-    top: min(-14vh, -100px);
+    top: min(-14vh, -90px);
     left: 5vw;
     width: 60vw;
   }
 
   .desc{
-    font-size: clamp(10px, 3vw, 20px);
-    top:min(-15vh, -110px);
+    font-size: clamp(12px, 3vw, 20px);
+    top:min(-15vh, -100px);
     width: 65vw;
   }
 
   h2{
-    top: min(-15vh, -120px);
+    top: min(-15vh, -110px);
     left: 5vw;
     width: max(50vw, 200px);
     
   }
 
   button{
-    top: min(-14vh, -120px);
+    top: min(-14vh, -100px);
     left: 5vw;
     width: 65vw;
   }
