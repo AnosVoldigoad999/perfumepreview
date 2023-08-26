@@ -144,7 +144,7 @@ s{
   }
 
   p{
-    font-size: 3vw;
+    font-size: clamp(16px, 3vw, 20px);
     position: relative;
     top: -17vh;
     left: 5vw;
