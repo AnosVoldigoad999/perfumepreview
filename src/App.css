@@ -123,7 +123,7 @@ s{
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
     width: 75vw;
-    min-width: 375px;
+    min-width: 100px;
     max-width: 500px;
     margin-top: 5vh;
     border-radius: var(--container-borders);
