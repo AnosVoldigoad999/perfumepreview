@@ -121,7 +121,7 @@ s{
     display: grid;
     grid-template-areas: "pic"
                          "everything" ;
-    grid-template-rows: 50vh 50vh;                  
+    grid-template-rows: max(350px, 50vh) max(350px, 50vh);                  
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
     width: 75vw;
@@ -148,33 +148,33 @@ s{
   p{
     font-size: clamp(16px, 3vw, 20px);
     position: relative;
-    top: -12vh;
+    top: min(-12vh, -90px );
     left: 5vw;
   }
   
   h1{
     font-size: 6vw;
     position: relative;
-    top: -14vh;
+    top: min(-14vh, -100px);
     left: 5vw;
     width: 60vw;
   }
 
   .desc{
     font-size: clamp(10px, 3vw, 20px);
-    top:-15vh;
+    top:min(-15vh, -110px);
     width: 65vw;
   }
 
   h2{
-    top: -15vh;
+    top: min(-15vh, -120px);
     left: 5vw;
     width: 50vw;
     
   }
 
   button{
-    top: -14vh;
+    top: min(-14vh, -120px);
     left: 5vw;
     width: 65vw;
   }
