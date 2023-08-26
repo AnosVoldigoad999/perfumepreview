@@ -84,6 +84,8 @@ button{
   cursor:pointer;
 }
 
+
+
 button:hover{
   filter: brightness(70%);
 }
@@ -125,7 +127,7 @@ s{
     width: 75vw;
     min-width: 0px;
     max-width: 500px;
-    min-height: 500px;
+    min-height: 700px;
     margin-top: 5vh;
     border-radius: var(--container-borders);
   }
@@ -146,34 +148,43 @@ s{
   p{
     font-size: clamp(16px, 3vw, 20px);
     position: relative;
-    top: -17vh;
+    top: -12vh;
     left: 5vw;
   }
   
   h1{
     font-size: 6vw;
     position: relative;
-    top: -18vh;
+    top: -14vh;
     left: 5vw;
     width: 60vw;
   }
 
   .desc{
     font-size: clamp(10px, 3vw, 20px);
-    top:-19vh;
+    top:-15vh;
     width: 65vw;
-    border: 1px solid red;
   }
 
   h2{
-    top: -10vh;
+    top: -15vh;
     left: 5vw;
+    width: 50vw;
+    
   }
 
   button{
-    top: -10vh;
+    top: -14vh;
     left: 5vw;
     width: 65vw;
+  }
+
+  button:hover{
+    filter: brightness(70%);
+  }
+
+  button:active{
+    filter: brightness(70%);
   }
 
 }
