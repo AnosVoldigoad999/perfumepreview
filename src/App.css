@@ -15,7 +15,7 @@ p{
 .desc{
   letter-spacing: 2px;
   position: relative;
-  top: 2vh;
+  top: min(1vh, 9px);
 }
 
 body{
@@ -64,7 +64,7 @@ h2{
   font-family: fraunces;
   position: relative;
   color:  hsl(212, 21%, 14%);
-  top: 3vh;
+  top: min(12px, 2vh);
   left: 3vw;
   font-size: 2rem;
   color: hsl(158, 36%, 37%);
@@ -78,7 +78,7 @@ button{
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   font-weight: bolder;
-  top: 2vh ;
+  top: min(13px, 2vh) ;
   left: 2vw;
   border: none;
   cursor:pointer;
@@ -141,6 +141,7 @@ s{
     width: 75vw;
     height: 30vh;
     min-height: 240px ;
+    max-height: 240px;
     border-top-left-radius: var(--container-borders);
     border-top-right-radius: var(--container-borders);
     border-bottom-left-radius: 0px;
