@@ -119,7 +119,7 @@ s{
     display: grid;
     grid-template-areas: "pic"
                          "everything" ;
-    grid-template-rows: 250px 250px;                  
+    grid-template-rows: 50vh 50vh;                  
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
     width: 75vw;
