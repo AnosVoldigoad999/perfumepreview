@@ -121,7 +121,7 @@ s{
     display: grid;
     grid-template-areas: "pic"
                          "everything" ;
-    grid-template-rows: max(350px, 50vh) max(350px, 50vh);                  
+    grid-template-rows: 350px 350px;                  
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
     width: 75vw;
