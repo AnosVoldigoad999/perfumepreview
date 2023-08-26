@@ -14,7 +14,7 @@ export default function App (){
 </p>
 
   <h2>$149.99 <s>$169.99</s></h2>
-  <button id='butt' ><img alt='icon-cart' src='../public/icon-cart.svg'></img>Add to cart</button>
+  <button id='butt' ><img alt='icon-cart' src='../public/icon-cart.svg' width={50} height={50} ></img>Add to cart</button>
 </div>
 
  </div>
