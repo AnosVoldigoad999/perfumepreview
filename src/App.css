@@ -125,6 +125,7 @@ s{
     width: 75vw;
     min-width: 0px;
     max-width: 500px;
+    min-height: 500px;
     margin-top: 5vh;
     border-radius: var(--container-borders);
   }
