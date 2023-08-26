@@ -159,8 +159,10 @@ s{
   }
 
   .desc{
+    font-size: clamp(10px, 3vw, 20px);
     top:-19vh;
     width: 65vw;
+    border: 1px solid red;
   }
 
   h2{
