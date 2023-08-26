@@ -23,7 +23,7 @@ body{
 }
 
 :root{
-  --container-height: 65vh ;
+  --container-height: 520px ;
   --container-borders: 20px;
 }
 
@@ -37,7 +37,7 @@ body{
   max-width: 800px ;
   min-width: 780px;
   min-height: var(--container-height);
-  margin-top: 20vh;
+  margin-top: 10vh;
   border-radius: var(--container-borders);
 }
 
@@ -64,7 +64,7 @@ h2{
   font-family: fraunces;
   position: relative;
   color:  hsl(212, 21%, 14%);
-  top: 6vh;
+  top: 3vh;
   left: 3vw;
   font-size: 2rem;
   color: hsl(158, 36%, 37%);
@@ -78,7 +78,7 @@ button{
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   font-weight: bolder;
-  top: 6vh ;
+  top: 2vh ;
   left: 2vw;
   border: none;
   cursor:pointer;
@@ -119,13 +119,12 @@ s{
     display: grid;
     grid-template-areas: "pic"
                          "everything" ;
-    grid-template-rows: 40vh 37vh;                  
+    grid-template-rows: 250px 250px;                  
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
     width: 75vw;
     min-width: 375px;
     max-width: 500px;
-    min-height: 30vh;
     margin-top: 5vh;
     border-radius: var(--container-borders);
   }
