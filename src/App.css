@@ -142,14 +142,16 @@ s{
   }
 
   p{
+    font-size: 3vh;
     position: relative;
-    top: -9vh;
+    top: -17vh;
     left: 5vw;
   }
   
   h1{
+    font-size: 3vh;
     position: relative;
-    top: -9vh;
+    top: -18vh;
     left: 5vw;
     font-size: 2.5rem;
     width: 60vw;
