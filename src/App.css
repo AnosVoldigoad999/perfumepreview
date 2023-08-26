@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  font-family: mont;
+ 
+}
+
+p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 7px;
+  color: hsl(228, 12%, 48%);
+  font-weight:500;
+}
+
+.desc{
+  letter-spacing: 2px;
+  position: relative;
+  top: 2vh;
+}
+
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+:root{
+  --container-height: 65vh ;
+  --container-borders: 20px;
+}
+
+.container{
+  display: grid;
+  grid-template-areas: "pic everything";
+  grid-template-columns: 50% 50%;                  
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  width: 75vw;
+  max-width: 800px ;
+  min-width: 780px;
+  min-height: var(--container-height);
+  margin-top: 20vh;
+  border-radius: var(--container-borders);
+}
+
+.pic{
+  background-image: url('../public/image-product-desktop.jpg');
+  background-size: cover;
+  grid-area: pic;
+  width: 370px;
+  height: var(--container-height);
+  border-top-left-radius: var(--container-borders);
+  border-bottom-left-radius: var(--container-borders);
+}
+.everything{
+  grid-area: everything;
+}
+
+h1{
+  font-family: fraunces;
+  color: hsl(212, 21%, 14%);
+  width: 220px;
+}
+
+h2{
+  font-family: fraunces;
+  position: relative;
+  color:  hsl(212, 21%, 14%);
+  top: 6vh;
+  left: 3vw;
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+}
+
+button{
+  position:relative;
+  padding: 15px;
+  width: 80%;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-weight: bolder;
+  top: 6vh ;
+  left: 2vw;
+  border: none;
+  cursor:pointer;
+}
+
+button:hover{
+  filter: brightness(70%);
+}
+
+img{
+  position: relative;
+  top: 2px;
+  right: 5px;
+}
+
+
+s{
+  font-size: 15px;
+  color: hsl(228, 12%, 48%); 
+  font-weight: 500;
+}
+
+/*fonts*/
+@font-face {
+  font-family: mont;
+  src: url('../public/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face{
+  font-family: fraunces;
+  src: url('../public/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+}
+
+/*media queries*/
+
+@media only screen and (max-width:600px){
+  .container{
+    display: grid;
+    grid-template-areas: "pic"
+                         "everything" ;
+    grid-template-rows: 40vh 37vh;                  
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    width: 75vw;
+    min-width: 375px;
+    max-width: 500px;
+    min-height: 30vh;
+    margin-top: 5vh;
+    border-radius: var(--container-borders);
+  }
+
+  .pic{
+    background-image: url('../public/image-product-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-area: pic;
+    width: 75vw;
+    height: 30vh;
+    border-top-left-radius: var(--container-borders);
+    border-top-right-radius: var(--container-borders);
+    border-bottom-left-radius: 0px;
+  }
+
+  p{
+    position: relative;
+    top: -9vh;
+    left: 5vw;
+  }
+  
+  h1{
+    position: relative;
+    top: -9vh;
+    left: 5vw;
+    font-size: 2.5rem;
+    width: 60vw;
+  }
+
+  .desc{
+    top:-10vh;
+    width: 65vw;
+  }
+
+  h2{
+    top: -10vh;
+    left: 5vw;
+  }
+
+  button{
+    top: -10vh;
+    left: 5vw;
+    width: 65vw;
+  }
+
+}
