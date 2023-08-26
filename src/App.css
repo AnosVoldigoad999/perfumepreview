@@ -137,29 +137,29 @@ s{
     grid-area: pic;
     width: 75vw;
     height: 30vh;
+    min-height: 250px ;
     border-top-left-radius: var(--container-borders);
     border-top-right-radius: var(--container-borders);
     border-bottom-left-radius: 0px;
   }
 
   p{
-    font-size: 3vh;
+    font-size: 3vw;
     position: relative;
     top: -17vh;
     left: 5vw;
   }
   
   h1{
-    font-size: 3vh;
+    font-size: 6vw;
     position: relative;
     top: -18vh;
     left: 5vw;
-    font-size: 2.5rem;
     width: 60vw;
   }
 
   .desc{
-    top:-10vh;
+    top:-19vh;
     width: 65vw;
   }
 
